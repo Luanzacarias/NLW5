@@ -57,6 +57,6 @@ const api = axios.create({
 export default api;
 ```
 
-## Creditos
+## Créditos
 
 Créditos ao [Rodrigo Gonçalves](https://github.com/rodrigorgtic) pela maioria das informações desse arquivo.
