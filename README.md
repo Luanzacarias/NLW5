@@ -40,14 +40,14 @@ Acesse o layout do aplicativo [aqui](https://www.figma.com/file/kdibN6T9EeDRw6qR
 
 Utilize o yarn ou o npm install para instalar as depedências do projeto. Em seguida, inicie o projeto e a API fake com o Json Server.
 
-´´´
+```
   expo start
   json-server ./src/services/server.json --host 192.168.1.4 --port 3333 --delay 700
-´´´
+```
 
 Substitua o host pelo seu endereço IP local. Faça o mesmo no arquivo API dentro de services.
 
-´´´js
+```js
 import axios from 'axios';
 
 const api = axios.create({
@@ -55,7 +55,7 @@ const api = axios.create({
 });
 
 export default api;
-´´´
+```
 
 ## Creditos
 
